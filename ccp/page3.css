@@ -1,0 +1,54 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #F1F1F1;
+   
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 200px;
+    background-color: #F1F1F1;
+}
+.banner1{
+
+  float: right;
+}
+ .banner{
+  width: 75%;
+ }
+ }
+.section{
+  display: flex;
+}
+
+.sectionone {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 200px;
+
+    
+    }
+
+    .vl {
+    border-left: 3px black;
+    height: 500px;
+}
+.navbar {
+  background-color: #00AEEF ! important ;
+  box-shadow: 5px 2px #BDBDBD;
+ }
+ .navbar .navbar-nav li a{
+  color: white ! important;
+ }

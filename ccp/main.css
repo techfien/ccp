@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  position: absolute;
+  flex-flow: row wrap;
+  width: 300px;
+  padding: 25px;
+  height: 200px;
+  top: 150px;
+  left: 100px;
+  background-color: rgba(192, 192, 192, 0.7);
+  align-self: center;
+}
+
+.sectionone {
+  display: flex;
+  padding: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.why {
+  margin: auto;
+}
+
+.app {
+  margin: auto;
+}
+
+.sectiontwo {
+  display: flex;
+  background-color: #F1F1F1;
+}
+
+.section {
+  width: 50%;
+  padding: 10px;
+  border-right: 2px;
+}
+
+.button {
+  background-color: #00AEEF;
+  left: 30px;
+  cursor: pointer;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #F1F1F1;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 200px;
+  background-color: #F1F1F1;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+
+  footer {
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+  }
+}
+
+.navbar {
+  background-color: #00AEEF ! important;
+  box-shadow: 5px 2px #BDBDBD;
+}
+
+.navbar .navbar-nav li a {
+  color: white ! important;
+}
